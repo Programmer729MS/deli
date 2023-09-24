@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    background-color: #000;
+}
+
+
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    color: rgb(255, 122, 13);
+    font-family: calibri;
+    padding-bottom: 80px;
+    padding-top:80px;
+    border-radius: 25px;
+    border: 3px solid white;
+    opacity: 0.9;
+    background-color: #000;
+}
+
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    color:  rgb(255, 122, 13);
+    border-radius: 10px;
+}
+  input[type=password] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color:  rgb(207, 93, 0);
+    border-radius: 10px;
+}
+label{
+    color: white;
+    font-family: corbel;
+    font-size: 1em;
+}
+.container p{
+    color: white;
+    font-family: corbel;
+}
+.container a{
+    color:  rgb(255, 122, 13);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.btn{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(255, 122, 13);
+    border-radius: 10px;
+    border-color: #fff;
+    margin-top: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .75;
+    color: black;
+}
+
+.btn a{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+.btn a:hover{
+    color: #000;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99%;
+    padding: 0.5rem;
+  
+
+}
+.bar img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+}
+
+
+.arrow{
+   position: relative;
+   background-color: transparent;
+   padding-left: 50px;
+   padding-top: 18px;
+ 
+}
+.arrow a{
+    color: rgb(255, 255, 255) ;
+    text-decoration: none;
+    font-weight: bold; 
+    font-style: bold;  
+   font-size: 1.7em; 
+   font-family: arial,bold;
+}
+.arrow a:hover{
+    color: rgb(255, 122, 13) ;
+    text-decoration: none;
+    font-weight: bold; 
+    font-style: bold;  
+   font-size: 1.7em; 
+   font-family: arial,bold;   
+}
+
+@media screen and (max-width: 600px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width:100%;
+    }
+
+
+    .bar img{
+        width: 3rem;
+
+    }
+      
+    .arrow{
+        position: relative;
+        right: 20px;
+        bottom: 6px;
+    }
+    .container{
+        width: 100%;
+        margin: auto;
+        margin-top: 0px;
+        color: rgb(255, 122, 13);
+        font-family: calibri;
+        padding-bottom: 30px;
+        padding-top:120px;
+        border-style: none;
+       
+    }
+
+    
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    color:  rgb(255, 122, 13);
+  }
+  input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color:  rgb(207, 93, 0);
+}
+    .btn{
+        width: 60%;
+        height: 40px;
+        background-color: rgb(255, 122, 13);
+        border-radius: 10px;
+        border-color: white;
+        margin-top: 20px;
+    }
+    .btn a{
+        letter-spacing: 1px;
+    }
+
+}
+
+
+
